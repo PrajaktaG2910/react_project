@@ -6,8 +6,8 @@ import Topic from './Screen/Topic'
 
 function App() {
   return (
-    <div>
-     <BrowserRouter>
+    
+     <BrowserRouter basename='/react_project'>
      <Routes>
 
       <Route path='/' element={<Home/>}/>
@@ -17,7 +17,7 @@ function App() {
      </Routes>
      
      </BrowserRouter>
-    </div>
+  
   )
 }
 
